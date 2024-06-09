@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Webpage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
+            <li class="nav-item"><a href="#resume" class="nav-link">Resume</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="section">
+        <h2 class="section-title">Welcome to our Website - CINTILATED GROUP OF COMPANY</h2>
+        <img src="./image/collaboration.jpg" alt="collaboration" class="section-image">
+        <p class="section-description">We are dedicated to providing top-notch services in Information and Communication Technology.
+            <strong>Cintilated group of company</strong> is a multinational company in Benin City, Edo State Nigeria. 
+            We are into different selling of ICT goods and services.</p>
+        <ul class="section-list">
+            <li>IT Training: This includes Microsoft package and graphic design</li>
+            <li>IT Consulting Services: Rendering services for small and medium businesses and companies for IT support and expansion.</li>
+            <li>Selling of IT gadgets: like laptops, chargers, mouse, keyboard, power banks, flash drives, External hard drives, CD-ROM drives, etc.</li>
+        </ul>
+    </section>
+
+    <section id="about" class="section">
+        <h2 class="section-title">About</h2>
+        <p class="section-description"><strong>Overview:</strong>
+            Our company is a leading provider of innovative technology solutions aimed at empowering businesses and individuals to thrive in the digital age. 
+            With a team of experienced professionals and cutting-edge technology, we specialize in delivering tailored software development,
+            IT consulting, and digital transformation services.</p> 
+        <p class="section-description"><strong>Mission:</strong> 
+            Our mission is to leverage technology to drive positive change and empower our clients to achieve their goals.
+            We are committed to delivering innovative solutions that enhance efficiency, productivity, and competitiveness in today's fast-paced digital landscape.</p>
+        <p class="section-description"><strong>Our Values:</strong> Innovation, Integrity, Excellence, Collaboration, Diversity & Inclusion, Social Responsibility</p>
+    </section>
+
+    <section id="work" class="section">
+        <h2 class="section-title">Our Services/Work</h2>
+        <p class="section-description"> Some trainings/consultancy services done below with pictures</p>
+        <img src="./image/IT training.jpg" alt="IT Training" class="section-image"><br><br>
+        <img src="./image/it consulting.png" alt="IT Consulting" class="section-image"><br><br>
+        <img src="./image/rendering services.png" alt="Rendering Services" class="section-image"><br><br>
+        <img src="./image/IT gadgets.jpg" alt="IT Gadgets" class="section-image"><br><br>
+        <img src="./image/IT gadget.jpg" alt="IT Gadget" class="section-image"><br><br>
+
+        <audio controls class="section-audio">
+            <source src="./Audio/test.mp4.aac" type="audio/mp4">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <section id="resume" class="section">
+        <h2 class="section-title">Resume</h2>
+        <article class="resume-article">
+            <h3 class="resume-name">Eghosa Igbinoba</h3>
+            <p class="resume-contact">Email: egheigbinoba7@gmail.com</p>
+            <p class="resume-contact">Phone: 08164550281</p>
+            <h4 class="resume-heading">Education</h4>
+            <ul class="resume-list">
+                <li>Bachelor of Science in Computer Science - AAU (2016)</li>
+                <li>High School Diploma - FSTC (2011)</li>
+            </ul>
+            <h4 class="resume-heading">Experience</h4>
+            <p class="resume-job"><strong>Software Engineer</strong> - NNPC (2022)</p>
+            <ul class="resume-list">
+                <li>Developed web applications using HTML, CSS, and JavaScript.</li>
+                <li>Collaborated with team members to deliver projects on time.</li>
+            </ul>
+            <p class="resume-job"><strong>Intern</strong> - Integrated Data Services Limited (2015)</p>
+            <ul class="resume-list">
+                <li>Assisted with testing and debugging of software applications.</li>
+                <li>Learned about the software development life cycle.</li>
+            </ul>
+            <h4 class="resume-heading">Skills</h4>
+            <ul class="resume-list">
+                <li>Programming Languages: Java, JavaScript, Python</li>
+                <li>Web Technologies: HTML, CSS, React.js</li>
+                <li>Database: SQL, MongoDB</li>
+            </ul>
+        </article>
+        <h3 class="section-title">Testimonials</h3>
+        <blockquote class="testimonial">
+            "I have been using their services for 3 years and I'm extremely satisfied!"
+        </blockquote>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact Us</h2>
+        <form action="submit.php" method="post" class="contact-form">
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" id="name" name="name" required class="form-input"><br><br>
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" id="email" name="email" required class="form-input"><br><br>
+            <label for="message" class="form-label">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required class="form-textarea"></textarea><br>
+            <button type="submit" class="form-button">Send</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p class="footer-text">&copy; 2024 Your Website. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
