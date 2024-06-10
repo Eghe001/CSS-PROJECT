@@ -51,7 +51,6 @@ body {
 
 .section-image {
     display: block;
-    margin: 0 auto 20px;
     max-width: 100%;
     position: relative;
 }
@@ -113,3 +112,14 @@ body {
     margin:0;
 }
 
+.container-img{
+    display: flex;
+    justify-content: space-around;
+
+}
+.audio{
+    justify-content: center;
+}
+.section-audio{
+    display: flex;
+}
